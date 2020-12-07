@@ -18,6 +18,7 @@
                                 <li><a href="<?php echo base_url()."index.php/User/Hibahbmn/index2"; ?>"><i class="icon-star-empty"></i> Hibah BMN</a></li>
                                 <li><a href="<?php echo base_url()."index.php/User/Penjualanbmn/index2"; ?>"><i class="icon-star-empty"></i> Penjualan BMN</a></li>
                                 <li><a href="<?php echo base_url()."index.php/User/Penghapusanbmn/index2"; ?>"><i class="icon-star-empty"></i> Penghapusan BMN</a></li>
+                                <li><a href="<?php echo base_url()."pemusnahan"; ?>"><i class="icon-star-empty"></i> Pemusnahan BMN</a></li>
                             </ul>
                         </li>
                         <li><a href="<?php echo base_url()."index.php/User/Laporan/index"; ?>"><i class="icon-home"></i> Penyampaian Laporan Pengawasan dan Pengendalian BMN</a></li>

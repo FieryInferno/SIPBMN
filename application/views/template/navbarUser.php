@@ -24,10 +24,10 @@
                             <li><a href="<?php echo base_url()."index.php/User/Hibahbmn/index"; ?>"><i class="icon-star-empty"></i> Hibah BMN</a></li>
                             <li><a href="<?php echo base_url()."index.php/User/Penjualanbmn/index"; ?>"><i class="icon-star-empty"></i> Penjualan BMN</a></li>
                             <li><a href="<?php echo base_url()."index.php/User/Penghapusanbmn"; ?>"><i class="icon-star-empty"></i> Penghapusan BMN</a></li>
-                            <li><a href="<?php echo base_url()."pemusnahan"; ?>"><i class="icon-star-empty"></i> Penghapusan BMN</a></li>
+                            <li><a href="<?php echo base_url()."pemusnahan"; ?>"><i class="icon-star-empty"></i> Pemusnahan BMN</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url()."index.php/User/User/index"; ?>"><i class="icon-home"></i> Penyampaian Laporan Pengawasan dan Pengendalian BMN</a></li>
+                    <li><a href="<?php echo base_url()."laporan"; ?>"><i class="icon-home"></i> Penyampaian Laporan Pengawasan dan Pengendalian BMN</a></li>
                     <li><a href="<?php echo base_url()."index.php/User/User/index"; ?>"><i class="icon-home"></i> Monitoring dan Evaluasi Permasalahan BMN</a></li>
                     <li><a href="handler.php?aksi=about"><i class="icon-briefcase"></i> About</a></li>				
                 <?php }?>

@@ -6,6 +6,10 @@ class Bmn extends CI_Controller {
     public function pemusnahan()
     {
         $data['pemusnahan'] = $this->BmnModel->getPemusnahan();
-        $this->load->view('user/satuankerja/pemusnahan', $data);
+        if ($this->session->level == 'admin2') {
+            $this->load->view('user/satuankerja/verifikasiPemusnahan', $data);
+        } else {
+            $this->load->view('user/satuankerja/pemusnahan', $data);
+        }
     }
 }

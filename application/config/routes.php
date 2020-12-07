@@ -5,3 +5,4 @@ $route['default_controller'] = 'guest';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['pemusnahan']    = 'bmn/pemusnahan';
+$route['laporan']       = 'laporan';

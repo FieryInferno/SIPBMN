@@ -5,12 +5,12 @@ class User extends CI_Controller {
 	
 	public function index()
 	{
-	 $this->load->view('user/home_user');	
+		$this->load->view('user/home_user');	
 	}
 
     public function index2()
 	{
-	 $this->load->view('user/satuankerja/home_user');
+		$this->load->view('user/satuankerja/home_user');
 	}
 
 	public function index3()
